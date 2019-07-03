@@ -6,6 +6,11 @@
         xmlns:local="clr-namespace:SimulatingMouseInput"
         mc:Ignorable="d"
         Title="MainWindow" Height="240" Width="240">
+    <Window.InputBindings>
+        <KeyBinding Command="{Binding StartRecording}" Key="F1"/>
+        <KeyBinding Command="{Binding StopRecording}" Key="F2"/>
+        <KeyBinding Command="{Binding PlayBack}" Key="F3"/>
+    </Window.InputBindings>
     <Grid ShowGridLines="False">
         <Grid.RowDefinitions>
             <RowDefinition></RowDefinition>
@@ -27,7 +32,5 @@
                 Height="50"
                 Content="Playback"
                 Click="playBackMacroButton_Click"></Button>
-
-
     </Grid>
 </Window>

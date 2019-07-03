@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyboardLibrary", "Mou
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseKeyHook", "MouseKeyHook\MouseKeyHook.csproj", "{F52AA97E-180A-40ED-8F2B-09080171D6C7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibs", "ClassLibs", "{2CB79340-B331-4F54-8F31-C00FC3104EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Main", "Main", "{CC494952-E0EB-4F30-9110-2183CEA7E5D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "ClassLibrary1\Main.csproj", "{083A72B6-E135-42CD-8639-46931B69BF68}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,9 +61,26 @@ Global
 		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Release|x64.Build.0 = Release|x64
 		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Release|x86.ActiveCfg = Release|x86
 		{F52AA97E-180A-40ED-8F2B-09080171D6C7}.Release|x86.Build.0 = Release|x86
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|x64.Build.0 = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Debug|x86.Build.0 = Debug|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|x64.ActiveCfg = Release|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|x64.Build.0 = Release|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|x86.ActiveCfg = Release|Any CPU
+		{083A72B6-E135-42CD-8639-46931B69BF68}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F419622F-4D82-40A6-B4FB-3FE36579F018} = {2CB79340-B331-4F54-8F31-C00FC3104EBE}
+		{F52AA97E-180A-40ED-8F2B-09080171D6C7} = {2CB79340-B331-4F54-8F31-C00FC3104EBE}
+		{083A72B6-E135-42CD-8639-46931B69BF68} = {CC494952-E0EB-4F30-9110-2183CEA7E5D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {04FE2CB6-1F3C-4089-973A-7B906E94E6F1}

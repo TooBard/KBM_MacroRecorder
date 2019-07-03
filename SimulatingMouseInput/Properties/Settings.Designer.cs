@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SimulatingMouseInput.Properties
+namespace Main.Properties
 {
 
 
