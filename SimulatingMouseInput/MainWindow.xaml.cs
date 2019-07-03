@@ -23,7 +23,7 @@ namespace SimulatingMouseInput
     /// </summary>
     public partial class MainWindow : Window
     {
-        private ViewModel viewModel;
+        private readonly ViewModel viewModel;
         public MainWindow()
         {
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace SimulatingMouseInput
             viewModel.Unsubscribe();
         }
 
-        private void playBackMacroButton_Click(object sender, EventArgs e)
+        private void PlayBackMacroButton_Click(object sender, EventArgs e)
         {
             viewModel.Unsubscribe();
             viewModel.Playback();

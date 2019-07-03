@@ -31,6 +31,6 @@
                 Width="100"
                 Height="50"
                 Content="Playback"
-                Click="playBackMacroButton_Click"></Button>
+                Click="PlayBackMacroButton_Click"></Button>
     </Grid>
 </Window>
